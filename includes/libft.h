@@ -6,7 +6,7 @@
 /*   By: mbartole <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/20 12:14:01 by mbartole          #+#    #+#             */
-/*   Updated: 2019/04/15 15:41:55 by mbartole         ###   ########.fr       */
+/*   Updated: 2019/04/26 12:25:41 by mbartole         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,13 +16,10 @@
 # include <unistd.h>
 # include <stdlib.h>
 
+# include "gnl.h"
 # include "vector.h"
 # include "tree.h"
 # include "list.h"
-
-# define BUFF_SIZE 10
-
-int				get_next_line(const int fd, char **line);
 
 int				ft_printf(const char *format, ...);
 
